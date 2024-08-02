@@ -1,0 +1,20 @@
+** Dans src créer un dossier utils
+** Dans utils créer un fichier firebase.config.js
+** Coller dans firebase.config.js le sdk recupéré
+** Créer dossier components dans src
+** Dans src créer:
+	** ConnectModal.js
+	** Login.js
+	** SignUp.js
+
+*************************LES METHODES ET OUTILS DE FIREBASE UTILISES******************************
+
+*** createUserWithEmailAndPassword ==> Pour Gerer l'inscription d'un nouvel utilisateur
+
+*** signInWithEmaiAndPassword (avec import) ==>  
+
+*** signOut  (avec import) ==> Pour Gérer la déconnexion d'un utilisateur connecté
+
+*** onAuthStateChanged (avec import) ==> Pour recupérer et assigner l'utilisateur à une variable en passant par currentUser
+
+*** user.updateProfile ==> Assigner une valeur à une donnée de l'utilisateur Exp: Le displayName

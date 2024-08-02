@@ -1,0 +1,27 @@
+.connect-modal {
+  margin-top: 25px;
+  border: solid 3.5px #394457;
+  border-radius: 11px;
+  margin: 0 auto;
+  width: 45%;
+
+  .connecting-btn {
+    display: flex;
+    justify-content: left;
+
+    button {
+      margin: 3px;
+      border: none;
+      border-radius: 11px;
+      font-size: 1.2rem;
+      color: rgb(245, 236, 236);
+      cursor: pointer;
+
+      &:hover {
+        color: darkviolet;
+        background-color: rgb(245, 236, 236) !important;
+        transition: 0.3s;
+      }
+    }
+  }
+}

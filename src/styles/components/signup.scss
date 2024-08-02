@@ -1,0 +1,39 @@
+.sign-up {
+  .sign-up-block {
+    h3 {
+      text-decoration: underline;
+      letter-spacing: 1.5px;
+    }
+    .sign-up-form {
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        margin: 10px auto;
+        width: 50%;
+        padding: 10px 0;
+        text-align: center;
+        border-radius: 12px;
+        color: darkblue;
+        font-size: 1.2rem;
+      }
+      input[type="submit"] {
+        margin: 0 auto;
+        width: 30%;
+        background-color: salmon;
+        height: 7vh;
+        border: #282c34;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 1.1rem;
+        &:hover {
+          color: darkblue;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}

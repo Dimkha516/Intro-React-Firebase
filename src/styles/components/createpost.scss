@@ -1,0 +1,68 @@
+.post {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 50%;
+  height: 40vh;
+  border: solid 4px #394457;
+  border-radius: 15px;
+}
+.user-infos {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: -10px;
+  // margin-right: 85%;
+  p {
+    margin-right: 65%;
+    background-color: #4d75b9;
+    color: white;
+    border-radius: 50%;
+    padding: 1.5rem;
+    text-transform: uppercase;
+  }
+  button {
+    height: 8vh;
+    margin-top: 25px;
+    background-color: #394457;
+    color: whitesmoke;
+    border: #394457;
+    border-radius: 12px;
+    width: 25%;
+    cursor: pointer;
+    &:hover {
+      color: tomato;
+    }
+  }
+}
+.post {
+  margin: 0 auto;
+
+  .post-form {
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    textarea {
+      margin: 10px 0;
+      height: 25vh;
+      resize: none;
+      font-size: 1.5rem;
+      border: none;
+      border-radius: 11px;
+      color: black;
+    }
+    input[type="submit"] {
+      background-color: #394457;
+      margin: 0 auto;
+      margin-right: 70%;
+      width: 35%;
+      height: 8vh;
+      border: none;
+      border-radius: 11px;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+}
